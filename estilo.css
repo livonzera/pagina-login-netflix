@@ -1,0 +1,145 @@
+/*cor de background*/
+@font-face {
+  font-family: fontenetflix;
+  src: url(Gotham-Font/GothamLight.ttf);
+}
+
+body{
+
+    background-color: #141414;
+}
+header{
+    width: 101.40%;
+    margin-left: -1%;
+    margin-top: -1%;
+
+    background-image: linear-gradient(black, #141414);
+
+}
+
+/*cor de título: Quem está assistindo?*/
+#quem{
+    color: white;
+    font-family: fontenetflix;
+    font-size: 50px;
+}
+
+/*cor do texto*/
+p{
+    color: grey; 
+    font-family: fontenetflix;
+}
+
+#quem{ text-align:center;
+}
+
+#perfil{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+
+}
+
+.botaoa{
+    background-color: #141414;
+  border: none;
+  padding: 0px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+
+}
+
+.botaob{
+    background-color: #141414;
+  border: none;
+  padding: 0px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+
+}
+
+.botaoc{
+    background-color: #141414;
+  border: none;
+  padding: 0px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+
+}
+
+.botaod{
+    background-color: #141414;
+  border: none;
+  padding: 0px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+
+}
+
+.botaoe{
+    background-color: #141414;
+  border: none;
+  padding: 0px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+
+}
+
+.botaof{
+    background-color: #141414; /* Green */
+  border: grey;
+  padding: 5px;
+  outline-style: solid;
+    outline-width: thin;
+    width: 150px;
+
+  color: grey;
+  padding: 1px 1px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.botao2:hover{
+    transition: 0,5s;
+    border-color: white;
+        box-shadow: 1px 10px 20px 1px black,0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+
+
+
+#nome{
+    text-align: center;
+
+}
+
+
